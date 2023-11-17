@@ -6,6 +6,41 @@
     <title>Dependency Injection</title>
 </head>
 <body>
-    
+
+    <br>
+    <br>
+    <div>
+        <p>
+          The Dependency Injection is a pattern that enforces a class to have it's required dependencies.This can be
+        acheived by decouling the usage of an object from it's creation.This design pattern follows dependency inversion
+        and single responsibility SOLID principles.
+    </p>
+    </div>
+    <br>
+    <h3>We can use interfaces to break the dependencies between higher and lower level classes</h3>
+    <br>
+    <div>
+        <p>
+              If we introduce interfaces to break the dependencies between higher and lower level classes then both classes
+            depend on the interface and not on eachother.The interface decouples the usage of the lower level class but not on its instantiation.            
+        </p>
+
+              Four main roles in dependency injection pattern:
+            <h2>Role 1: The service you want to use.</h2> 
+            <h2>Role 2: The client that uses the service.</h2>
+            <h2>Role 3: The interface that is used by the client and implemented by the service.</h2>
+            <h2>Role 4: The injector which creates a service instance and injects it into the client.</h2> 
+    </div>
+       <div>
+        <p>
+            There are three types of dependency_injection:
+            <br>
+            The constructor injection
+            <br>
+            The field Injection
+            <br>
+            The setter injection
+        </p>
+       </div>
 </body>
 </html>
