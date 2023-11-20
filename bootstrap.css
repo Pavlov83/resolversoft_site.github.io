@@ -218,6 +218,12 @@ body {
   
 }
 
+div{
+  max-width: 1440px;
+  margin: auto;
+
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -274,8 +280,7 @@ h6, .h6 {
 }
 
 p {
-  max-width: 1440px;
-  margin: auto;
+
   margin-bottom: 1rem;
 }
 
